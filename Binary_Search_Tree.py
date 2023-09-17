@@ -59,12 +59,12 @@ class BinarySearchTree:
         self.__post_order(node.left)
         self.__post_order(node.right)
         print(node.val,end=" ")
-
-bst = BinarySearchTree()
-for i in [8, 4, 12, 2, 6, 10, 16, 1, 5, 7, 100, 200, 150, 9, 15]:
-    bst.insert(i)
-bst.in_order()
-print()
-bst.pre_order()
-print()
-bst.post_order()
+if __name__ == "__main__":
+    bst = BinarySearchTree()
+    for i in [8, 4, 12, 2, 6, 10, 16, 1, 5, 7, 100, 200, 150, 9, 15]:
+        bst.insert(i)
+    bst.in_order()
+    print()
+    bst.pre_order()
+    print()
+    bst.post_order()
