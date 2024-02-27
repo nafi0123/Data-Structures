@@ -56,8 +56,8 @@ def heapSort(arr):
 arr = [12, 11, 13, 5, 6, 7, ]
 heapSort(arr)
 n = len(arr)
-print('Sorted array is')
+print('Sorted array is',end=" ")
 for i in range(n):
-	print(arr[i])
+	print(arr[i],end=" ")
 
 # This code is contributed by Mohit Kumra
