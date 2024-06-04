@@ -35,3 +35,7 @@ if __name__ == '__main__':
         llist.insert_node(llist_item)
 
     reversePrint(llist.head)
+
+
+# Time Complexity: O(N), Visiting over every node one time 
+# Auxiliary Space: O(N), Function call stack space
