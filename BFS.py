@@ -54,3 +54,5 @@ if __name__ == "__main__":
     print("Level-Order Traversal:")
     bst.level_order()
 
+# Time Complexity: O(n)
+# Space Complexity: O(n)
